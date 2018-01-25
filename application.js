@@ -65,6 +65,7 @@ function calculateExp(expression) {
           num = (b == 0)? 42 : Math.floor(a / b);
           break;
       }
+      if(num === -0) { num = 0; }
       stack.push(num);
     }
   }
