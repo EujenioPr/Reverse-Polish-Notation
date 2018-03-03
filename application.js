@@ -104,5 +104,5 @@ let button = document.getElementById('submitRequest');  // request button
 
 button.addEventListener('click', () => {
   output.innerHTML = '<div class="loader">Loading...</div>';
-  Main('https://www.eliftech.com/school-task');
+  Main('url');
 });
